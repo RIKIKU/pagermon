@@ -27,7 +27,7 @@ stages:
           # Write your PowerShell commands here.
           
           git remote add upstream https://github.com/pagermon/pagermon.git
-          
+          git checkout master
           git fetch upstream
           git merge upstream/master
           git push
