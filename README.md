@@ -1,4 +1,13 @@
 # [PagerMon](https://hrng.io/)
+![Discord](https://img.shields.io/discord/533900375066017812.svg?style=plastic)
+![GitHub issues](https://img.shields.io/github/issues-raw/pagermon/pagermon.svg?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/pagermon/pagermon.svg?style=plastic)
+![GitHub](https://img.shields.io/github/license/pagermon/pagermon.svg?style=plastic)
+![GitHub stars](https://img.shields.io/github/stars/pagermon/pagermon.svg?style=plastic)
+![GitHub forks](https://img.shields.io/github/forks/pagermon/pagermon.svg?style=plastic)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/pagermon/pagermon.svg?label=release&style=plastic)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/pagermon/pagermon.svg?style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/pagermon/pagermon.svg?style=plastic)
 
 PagerMon is an API driven client/server framework for parsing and displaying pager messages from multimon-ng.
 
@@ -22,6 +31,7 @@ The UI is built around a Node/Express/Angular/Bootstrap stack, while the client 
 * Native browner notifications
 * Plugin Support - Current Plugins:
     * [Pushover](https://pushover.net/) near realtime muti-device notification service
+    * [Prowl](https://prowlapp.com) near realtime iOS notification service with Apple Watch support
     * [Telegram](https://telegram.org/) near realtime cloud based multi-device messaging
     * [Discord](https://discordapp.com/) near realtime cloud based messaging service
     * [Gotify](https://gotify.net/) Self-Hosted messaging service
@@ -99,7 +109,7 @@ These instructions will get you a copy of the project up and running on your loc
 6) Grab your API keys and drop them in the PagerMon client, then you're good to go!
 
 Alternatively a production ready setup guide is available here
-https://github.com/pagermon/pagermon/wiki/Setup-Guide---Ubuntu-Server-with-NGINX-Reverse-Proxy-and-Let's-Encrypt-SSL-Certificate
+https://github.com/pagermon/pagermon/wiki/Tutorial---Production-Ready-Ubuntu,-PM2,-Nginx-Reverse-Proxy,-Let's-Encrypt-SSL,-Pagermon-server
 
 
 ### Docker

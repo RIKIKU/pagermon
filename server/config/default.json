@@ -28,6 +28,7 @@
       }
     ],
     "pdwMode": false,
+    "adminShow": false,
     "HideCapcode": false,
     "HideSource": false,
     "apiSecurity": false
@@ -47,6 +48,12 @@
         "key": "whydoyouneedtwokeys"
       }
     ]
+  },
+  "monitoring": {
+    "azureEnable": false,
+    "azureKey": "",
+    "gaEnable": false,
+    "gaTrackingCode": ""
   },
   "plugins": {}
 }
